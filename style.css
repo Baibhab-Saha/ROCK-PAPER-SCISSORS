@@ -1,0 +1,43 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url('https://thumbs.dreamstime.com/b/kids-game-rock-paper-scissors-pattern-blue-background-134992619.jpg');
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    color: wheat;
+}
+
+#card {
+    height: 200px;
+    width: 400px;
+    background-color: bisque;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    color: wheat;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(31, 100, 156);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(101, 104, 114);
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
